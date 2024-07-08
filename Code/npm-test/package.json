@@ -1,0 +1,16 @@
+{
+  "name": "npm-test",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "name": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "terminal-kit": "^3.1.1"
+  }
+}

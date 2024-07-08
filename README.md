@@ -1,66 +1,59 @@
-# Lesson 1: Introduction to Node JS
+# Lesson 2: Introduction to Node JS
 
-## Introduction to backend
+## Asynchronous Code Execution in Node.js 
 
-[What’s the Difference Between Frontend and Backend in Application Development?](https://aws.amazon.com/compare/the-difference-between-frontend-and-backend/)
+![alt text](./IMG/image.png)
 
-## Request response cycle
+![alt text](./IMG/image-1.png)
 
-The Request-Response Cycle is a fundamental concept in web development, describing the process by which a client (usually a web browser) requests information from a server, and the server responds back with the requested data.
+![alt text](./IMG/image-2.png)
 
-## Intro to NodeJS
+## Synchronous VS Asynchronous
 
-Node.js is an open-source and cross-platform JavaScript runtime environment. It is a popular tool for almost any kind of project!
+![alt text](./IMG/image-3.png)
 
-Node.js runs the V8 JavaScript engine, the core of Google Chrome, outside of the browser. This allows Node.js to be very performant.
-[Introduction to NodeJS](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)
+## Asynchronous execution example
 
-## What is CRUD API
+![alt text](./IMG/image-4.png)
 
-In web development, CRUD operations are the bread and butter of backend systems. This is because they allow you to "Create", "Read", "Update", and "Delete" data through your API.
+![alt text](./IMG/image-5.png)
 
-[What's CRUD API?](https://www.freecodecamp.org/news/create-crud-api-project/#what-is-a-crud-api)
+## V8 Engine
 
-## http Protocol
+![alt text](./IMG/image-6.png)
 
-What is HTTP?
-The Hypertext Transfer Protocol (HTTP) is designed to enable communications between clients and servers.
-HTTP works as a request-response protocol between a client and server.
+![alt text](./IMG/image-7.png)
 
-[HTTP Methods](https://www.w3schools.com/tags/ref_httpmethods.asp)
+![alt text](./IMG/image-8.png)
 
-## Local Modules in NodeJS
+![alt text](./IMG/image-9.png)
 
-Node.js comes with different predefined modules (e.g. http, fs, path, etc.) that we use and scale our project. We can define modules locally as Local Module. It consists of different functions declared inside a JavaScript object and we reuse them according to the requirement. We can also package it and distribute it using NPM. 
+![alt text](./IMG/image-10.png)
 
-[Node.js Local Module](https://www.geeksforgeeks.org/node-js-local-module/)
+## Event Loop
 
-## Built-in modules
+![alt text](./IMG/image-11.png)
 
-Node.js has a set of built-in modules which you can use without any further installation.
-[Node JS Built-in modules](https://www.w3schools.com/nodejs/ref_modules.asp)
 
-## Modules scope
 
-[Global Scope and module scope ](https://medium.com/nerd-for-tech/module-in-nodejs-95eba74e352f)
+## Additional Readings
 
-## Modules cashing
+### How does the internet work? - https://cs.fyi/guide/how-does-internet-work
+### Server-Client Architecture - https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server
 
-[Node.js Module Caching](https://medium.com/@mackplevine/node-js-module-caching-10c4e395423e)
+### HTTP Overview - https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
+### HTTP Messages - https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages
 
-## fs module
+### What is HTTP? in depth - https://cs.fyi/guide/http-in-depth
+### What is a Domain Name? - https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_domain_name
 
-The fs module provides a lot of functionality for interacting with the file system. Some of the more common functions that you will use are writeFile() / writeFileSync() and readFile() / readFileSync(). These functions let you write to and read from files, respectively.
-[fs module in Node.js](https://blog.risingstack.com/fs-module-in-node-js/)
+### What is the difference between webpage, website, web server, and search engine? - https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines
 
-## Node JS Path Module
+### What is DNS and how it works? - https://www.youtube.com/watch?v=Wj0od2ag5sk
 
-[Path Module](https://www.geeksforgeeks.org/node-js-path-module-complete-reference/)
+## Codevolution channel 
+### Event Loop - https://www.youtube.com/watch?v=L18RHG2DwwA&list=PLC3y8-rFHvwh8shCMHFA5kWxD9PaPwxaY&index=43
 
-## Events module (EventEmitter)
+### https://www.youtube.com/@Codevolution
 
-[Node Event Emitters](https://medium.com/developers-arena/nodejs-event-emitters-for-beginners-and-for-experts-591e3368fdd2)
 
-## Assignment 
-
-![alt Assignment](Untitled.jpg)
